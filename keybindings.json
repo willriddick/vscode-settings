@@ -1,0 +1,58 @@
+[
+  // TERMINAL
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+
+  // EXPLORER 
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+shift+e"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+shift+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "f",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+]
