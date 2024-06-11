@@ -1,4 +1,15 @@
 [
+  // CONTINUE EDITING
+  {
+    "command": "runCommands",
+    "key": "ctrl+shift+c",
+    "args": { "commands": [
+      "workbench.action.closePanel",
+      "workbench.action.closeSidebar",
+      "workbench.action.focusActiveEditorGroup"
+    ]}
+  },
+  
   // TERMINAL
   {
     "key": "ctrl+shift+j",
