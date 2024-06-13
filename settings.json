@@ -25,8 +25,8 @@
   "vim.normalModeKeyBindingsNonRecursive": [
 
   // switch open tabs
-  { "before": ["<S-h>"], "commands": [":bprevious"] },
-  { "before": ["<S-l>"], "commands": [":bnext"] },
+  { "before": ["<C-h>"], "commands": [":bprevious"] },
+  { "before": ["<C-l>"], "commands": [":bnext"] },
 
     
   // splits and pane navigation
