@@ -16,6 +16,11 @@
     "command": "workbench.action.togglePanel"
   },
   {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
     "key": "ctrl+a",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
@@ -44,7 +49,7 @@
   {
     "command": "workbench.files.action.focusFilesExplorer",
     "key": "ctrl+shift+e",
-    "when": "editorTextFocus"
+    "when": "!filesExplorerFocus"
   },
   {
     "key": "n",
