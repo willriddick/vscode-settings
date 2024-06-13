@@ -21,17 +21,17 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "ctrl+a",
+    "key": "ctrl+j",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+b",
+    "key": "ctrl+k",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+n",
+    "key": "ctrl+t",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
